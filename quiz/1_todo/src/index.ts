@@ -22,6 +22,15 @@ function fetchTodoItems(): Todo[] {
   return todos;
 }
 
+// const fetchTodoItems1 = (): Todo[] => {
+//   const todos = [
+//     { id: 1, title: '안녕', done: false },
+//     { id: 2, title: '타입', done: false },
+//     { id: 3, title: '스크립트', done: false },
+//   ];
+//   return todos;
+// }
+
 // crud methods
 function fetchTodos(): object[] {
   const todos = fetchTodoItems();
