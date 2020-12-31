@@ -31,6 +31,5 @@ const askSomeone = (someone: Developer & Person) => {
   someone.name
   someone.skill
   someone.age
-  //추후 타입 가드를 통한 접근도 가능 
 }
 
